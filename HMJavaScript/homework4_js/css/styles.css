@@ -1,0 +1,24 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .numbers {
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  .string_container {
+    margin-left: 30px;
+    margin-top: 30px;
+  
+  }
+
+
+  .users_container {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+  }

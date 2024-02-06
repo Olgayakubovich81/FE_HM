@@ -1,0 +1,49 @@
+* {padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+padding: 15px;
+position: relative;
+}
+
+
+  .inner1 {
+    
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    z-index: 5; 
+    position: absolute;
+    margin: 20px;
+
+  }
+  
+  .inner2 {  
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute ;
+    margin: 60px;
+    z-index: 100;
+  }
+  
+  .inner3 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    margin: 100px;
+    z-index: 20;
+  }
+  
+.inner2 {
+
+transition: all 2s linear;}
+
+  .inner2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(-45deg);}
